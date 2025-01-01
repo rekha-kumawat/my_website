@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  padding: 20px;
+  font-family: Arial;
+  background-image: url('flower.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1> CENTERS</h1>
+<hr>
+<h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('bangalore')"> BANGALORE</button>
+  <button class="btn" onclick="filterSelection('chennai')"> CHENNAI</button>
+  <button class="btn" onclick="filterSelection('delhi')"> DELHI</button>
+  <button class="btn" onclick="filterSelection('rajasthan')"> RAJASTAN</button>
+  <button class="btn" onclick="filterSelection('mumbai')"> MUMBAI</button>
+  <button class="btn" onclick="filterSelection('hyderbad')"> HYDERBAD</button>
+
+</div>
+</h2>
+<div class="row">
+  <div class="column bangalore">
+    <div class="content">
+<a href="file:///C:/Users/Mohammed%20Irfan/Documents/HTML%20CODE/ab.html">
+      <img src="b.jpg"  style="width:100%">
+      <h4>DRLS  PALACE</h4>
+      <p>BANGALORE</p></a>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column bangalore">
+    <div class="content">
+    <img src="b3.jpg" style="width:100%">
+      <h4>KEB SAMUDAYA BHAVAN</h4>
+      <p>BANGALORE</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column bangalore">
+    <div class="content">
+    <img src="b6.jpg" style="width:100%">
+      <h4>POORNIMA GROUND</h4>
+      <p>BANGALORE</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+
+  <div class="column bangalore">
+    <div class="content">
+      <img src="ba.jpg" alt="Car" style="width:100%">
+      <h4>ISKCON KALAYANA MANTAPA</h4>
+      <p>BANGALORE</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column bangalore">
+    <div class="content">
+    <img src="ba1.jpg" alt="Car" style="width:100%">
+      <h4>THE LEELA PALACE</h4>
+      <p>BANGALORE</p>
+    </div>
+  </div> &nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column bangalore">
+    <div class="content">
+    <img src="b7.jpg" alt="Car" style="width:100%">
+      <h4>SAMSKRUTHI BRINDHAVANA CONVENTION</h4>
+      <p>BANGALORE</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+
+  <div class="column bangalore">
+    <div class="content">
+      <img src="ba3.jpg" alt="Car" style="width:100%">
+      <h4>THE LOTUS CENTRE</h4>
+      <p>BANGALORE</p>
+    </div>
+  </div> <br><br><br><br>
+  <div class="column bangalore">
+    <div class="content">
+    <img src="ba4.jpg" alt="Car" style="width:100%">
+      <h4>PALACE GROUND</h4>
+      <p>BANGALORE</p>
+    </div>
+  </div> &nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column bangalore">
+    <div class="content">
+    <img src="ba5.jpg" alt="Car" style="width:100%">
+      <h4>CMA GRAND</h4>
+      <p>BANGALORE</p>
+    </div>
+  </div>
+
+
+<div class="row">
+  <div class="column chennai">
+    <div class="content">
+      <img src="c1.jpg"  style="width:100%">
+      <h4>SPP GARDENS</h4>
+      <p>CHENNAI</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column chennai">
+    <div class="content">
+    <img src="c5.jpg" style="width:100%">
+      <h4>A GRAND AND GLAMAOOUS</h4>
+      <p>CHENNAI</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column chennai">
+    <div class="content">
+    <img src="c3.jpg" style="width:100%">
+      <h4>THE PALACE HOUSE </h4>
+      <p>CHENNAI</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  
+  <div class="column chennai">
+    <div class="content">
+      <img src="c13.jpg" alt="Car" style="width:100%">
+      <h4>MANTRA GARDENS </h4>
+      <p>CHENNAI</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+                                          
+  <div class="column chennai">
+    <div class="content">
+    <img src="c2.jpg" alt="Car" style="width:100%">
+      <h4>RINA'S VENUE</h4>
+      <p>CHENNAI</p>
+    </div>
+  </div>
+<br><br><br><br><br>
+
+  <div class="column chennai">
+    <div class="content">
+    <img src="c6.jpg" alt="Car" style="width:100%">
+      <h4>CHARIOT RESORT</h4>
+      <p>CHENNAI</p>
+    </div>
+  </div>
+<br><br><br><br><br><br>
+  <div class="column chennai">
+    <div class="content">
+      <img src="c9.jpg" alt="Car" style="width:100%">
+      <h4>THE ROYAL PALACE</h4>
+      <p>CHENNAI</p>
+    </div>
+  </div>
+ 
+                          
+  <div class="column chennai">
+    <div class="content">
+    <img src="c7.jpg" alt="Car" style="width:100%">
+      <h4>FORTEL </h4>
+      <p>CHENNAI</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column chennai">
+    <div class="content">
+    <img src="c10.jpg" alt="Car" style="width:100%">
+      <h4>BLUE OCEAN</h4>
+      <p>CHENNAI</p>
+    </div>
+  </div>
+<div class="row">
+  <div class="column delhi">
+    <div class="content">
+      <img src="d1.jpg"  style="width:100%">
+      <h4>SHANI GARDEN</h4>
+      <p>DELHI</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column delhi">
+    <div class="content">
+    <img src="d2.jpg" style="width:100%">
+      <h4>REGAL MANOR GANDOTRA</h4>
+      <p>DELHI</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column delhi">
+    <div class="content">
+    <img src="d3.jpg" style="width:100%">
+      <h4>THE VICTORIAN</h4>
+      <p>DELHI</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+
+  <div class="column delhi">
+    <div class="content">
+      <img src="d4.jpg" alt="Car" style="width:100%">
+      <h4>SUNSHINE HALL</h4>
+      <p>DELHI</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column delhi">
+    <div class="content">
+    <img src="d5.jpg" alt="Car" style="width:100%">
+      <h4>HOTEL JAHHER</h4>
+      <p>DELHI</p>
+    </div>
+  </div> <br><br><br><br><br>
+  <div class="column delhi">
+    <div class="content">
+      <img src="d6.jpg" alt="Car" style="width:100%">
+      <h4>SHUBHAM MARRIAGE HALL</h4>
+      <p>DELHI</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column delhi">
+    <div class="content">
+      <img src="d7.jpg" alt="Car" style="width:100%">
+      <h4>HAVELI HALL</h4>
+      <p>DELHI</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column delhi">
+    <div class="content">
+      <img src="d8.jpg" alt="Car" style="width:100%">
+      <h4>DELHI DABAR</h4>
+      <p>DELHI</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+ 
+  <div class="column delhi">
+    <div class="content">
+      <img src="d9.jpg" alt="Car" style="width:100%">
+      <h4>MANGALAM PALACE</h4>
+      <p>DELHI</p>
+    </div>
+  </div>
+<div class="row">
+  <div class="column rajasthan">
+    <div class="content">
+      <img src="r1.jpg"  style="width:100%">
+      <h4>SHANI GARDEN</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column rajasthan">
+    <div class="content">
+    <img src="r8.jpg" style="width:100%">
+      <h4>REGAL MANOR GANDOTRA</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column rajasthan">
+    <div class="content">
+    <img src="r3.jpg" style="width:100%">
+      <h4>THE VICTORIAN</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+
+  <div class="column rajasthan">
+    <div class="content">
+      <img src="r4.jpg" alt="Car" style="width:100%">
+      <h4>SUNSHINE HALL</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column rajasthan">
+    <div class="content">
+    <img src="r5.jpg" alt="Car" style="width:100%">
+      <h4>HOTEL JAHHER</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div> <br><br><br>
+  <div class="column rajasthan">
+    <div class="content">
+      <img src="r9.jpg" alt="Car" style="width:100%">
+      <h4>SHUBHAM MARRIAGE HALL</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp <br><br><br><br><br>
+
+  <div class="column rajasthan">
+    <div class="content">
+      <img src="s5.jpg" alt="Car" style="width:100%">
+      <h4>HAVELI HALL</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp <br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+  <div class="column mumbai">
+    <div class="content">
+    <img src="m1.jpg" style="width:100%">
+      <h4>THE VICTORIAN</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+
+  <div class="column mumbai">
+    <div class="content">
+      <img src="m2.jpg" alt="Car" style="width:100%">
+      <h4>SUNSHINE HALL</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column mumbai">
+    <div class="content">
+    <img src="m3.jpg" alt="Car" style="width:100%">
+      <h4>HOTEL JAHHER</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div> <br><br><br>
+  <div class="column mumbai">
+    <div class="content">
+      <img src="m4.jpg" alt="Car" style="width:100%">
+      <h4>SHUBHAM MARRIAGE HALL</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp <br><br><br><br><br>
+
+
+
+  <div class="column hyderbad">
+    <div class="content">
+    <img src="h1.jpg" style="width:100%">
+      <h4>THE VICTORIAN</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+
+  <div class="column hyderbad">
+    <div class="content">
+      <img src="h2.jpg" alt="Car" style="width:100%">
+      <h4>SUNSHINE HALL</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column hyderbad">
+    <div class="content">
+    <img src="h3.jpg" alt="Car" style="width:100%">
+      <h4>HOTEL JAHHER</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div> <br><br><br>
+  <div class="column hyderbad">
+    <div class="content">
+      <img src="h4.jpg" alt="Car" style="width:100%">
+      <h4>SHUBHAM MARRIAGE HALL</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="column mumbai">
+    <div class="content">
+    <img src="m1.jpg" style="width:100%">
+      <h4>THE VICTORIAN</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+
+  <div class="column mumbai">
+    <div class="content">
+      <img src="m2.jpg" alt="Car" style="width:100%">
+      <h4>SUNSHINE HALL</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+
+  <div class="column mumbai">
+    <div class="content">
+    <img src="m3.jpg" alt="Car" style="width:100%">
+      <h4>HOTEL JAHHER</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div> <br><br><br>
+  <div class="column mumbai">
+    <div class="content">
+      <img src="m4.jpg" alt="Car" style="width:100%">
+      <h4>SHUBHAM MARRIAGE HALL</h4>
+      <p>RAJASTHAN</p>
+    </div>
+  </div>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp 
+&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp <br><br><br><br><br>
+
+ 
+ 
+
+ 
+</div>
+
+
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>
